@@ -6,7 +6,7 @@
 var express				= require('express');
 var app					= express();
 var bodyParser			= require('body-parser');
-var methodOverride		= require('method-override'):
+var methodOverride		= require('method-override');
 
 //	configuration ============================================================
 
@@ -34,7 +34,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/public'));
 
 //	routes ===================================================================
-require('./app/routes')(app); //configure our routes
+require('./app/routes.js')(app); //configure our routes
 
 //	start app ================================================================
 //	startup our app at -> "http://localhost:8080"
