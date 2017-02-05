@@ -1,0 +1,22 @@
+angular instructions
+
+For our Angular application, we will want:
+
+2 different pages (Home, Nerds)
+A different Angular controller for each page (MainCtrl.js and NerdCtrl.js)
+An Angular service for Nerds (Managing info presentations)
+No page refresh when switching pages
+Let’s create the files needed for our Angular application. This will be done in public/js. Here is the application structure for our frontend:
+
+- public 
+    ----- js
+    ---------- controllers 
+    -------------------- MainCtrl.js
+    -------------------- NerdCtrl.js
+    ---------- services
+    -------------------- NerdService.js
+    ---------- app.js 
+    ---------- appRoutes.js
+
+
+Once we have created our controllers, services, and routes, we will combine them all and inject these modules into our main app.js file to get everything working together.
