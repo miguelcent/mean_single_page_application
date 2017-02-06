@@ -18,3 +18,5 @@
     $locationProvider.html5Mode(true);
 
 }]);
+/*Our Angular frontend will use the template file and inject it into the <div ng-view></div> in our index.html file.
+It will do this without a page refresh which is exactly what we want for a single page application.*/
